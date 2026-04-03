@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/sapkotp2'                                                                    //<------your MiamiID
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/parbatisapkota/225-lab3-7.git'                                    //<------your MiamiID
-        KUBECONFIG = credentials('sapkotp2-22-sp26')                                                         //<------your MiamiID
+        KUBECONFIG = credentials('sapkotp2-225-sp26')                                                         //<------your MiamiID
     }
 
     stages {
